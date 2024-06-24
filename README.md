@@ -25,8 +25,6 @@ features. This study focuses on a specific region and commodity, namely Region :
 Afghanistan Commodity : Wheat– Retail The focus produces a reduced dataset
 that consists of 2312 rows and 18 columns / features.
 
-## Data Exploration
-
 ## Prerequisites
 
 1. Python (version 3.6 or higher)
@@ -43,6 +41,7 @@ pip install -r requirements.txt
 ## Usage
 
 1.  Linear approach
+
 In order to facilitate an easy approach a simple run via python main.py from
 the src directory will produce all the results needed in a linear fashion. There
 are 3 ways that we can define inputs:
@@ -51,6 +50,7 @@ are 3 ways that we can define inputs:
 	3. Run with python main.py a a a, Define inputs Manually at main.py line 39
 
 2.  Interactive approach
+
 A dash application is being provided that works for the target country =
 Afghanistan and selected commodity = Wheat- Retail. Expansion is trivial
 with a dictionary of pairs country- country id and commodity- commodity id.
