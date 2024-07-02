@@ -46,9 +46,9 @@ In order to facilitate an easy approach a simple run via python main.py from
 the src directory will produce all the results needed in a linear fashion. There
 are 3 ways that we can define inputs:
 	
-1. Run python main.py and it will prompt for inputs.
-2. Run python main.py ”Afghanistan” ”Wheat- Retail” or in general python main.py ”COUNTRY” ”COMMODITY”.
-3. Run with python main.py a a a, Define inputs Manually at main.py line 39
+ 1. Run python main.py and it will prompt for inputs.
+ 2. Run python main.py ”Afghanistan” ”Wheat- Retail” or in general python main.py ”COUNTRY” ”COMMODITY”.
+ 3. Run with python main.py a a a, Define inputs Manually at main.py line 39
 
 2.  Interactive approach
 
@@ -57,10 +57,10 @@ Afghanistan and selected commodity = Wheat- Retail. Expansion is trivial
 with a dictionary of pairs country- country id and commodity- commodity id.
 Asimple python app.py will launch the test server at http://127.0.0.1:8050/
 and from there a normal approach would be :
-1. Fill: Type Country eg AFG block
-2. Select: Commodity type
-3. Press : LOAD/RELOAD DATA
-4. Select: Dataset Focus
+ 1. Fill: Type Country eg AFG block
+ 2. Select: Commodity type
+ 3. Press : LOAD/RELOAD DATA
+ 4. Select: Dataset Focus
 
 
 From then you can plot price, geographical plots, train arima model and predict
