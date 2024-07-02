@@ -56,11 +56,10 @@ A dash application is being provided that works for the target country =
 Afghanistan and selected commodity = Wheat- Retail. Expansion is trivial
 with a dictionary of pairs country- country id and commodity- commodity id.
 Asimple python app.py will launch the test server at http://127.0.0.1:8050/
-and from there a normal approach would be :
- 1. Fill: Type Country eg AFG block
- 2. Select: Commodity type
- 3. Press : LOAD/RELOAD DATA
- 4. Select: Dataset Focus
+- Fill: Type Country eg AFG block
+- Select: Commodity type
+- Press : LOAD/RELOAD DATA
+- Select: Dataset Focus
 
 
 From then you can plot price, geographical plots, train arima model and predict
