@@ -46,9 +46,9 @@ In order to facilitate an easy approach a simple run via python main.py from
 the src directory will produce all the results needed in a linear fashion. There
 are 3 ways that we can define inputs:
 	
- 1. Run python main.py and it will prompt for inputs.
- 2. Run python main.py ”Afghanistan” ”Wheat- Retail” or in general python main.py ”COUNTRY” ”COMMODITY”.
- 3. Run with python main.py a a a, Define inputs Manually at main.py line 39
+- Run python main.py and it will prompt for inputs.
+- Run python main.py ”Afghanistan” ”Wheat- Retail” or in general python main.py ”COUNTRY” ”COMMODITY”.
+- Run with python main.py a a a, Define inputs Manually at main.py line 39
 
 2.  Interactive approach
 
