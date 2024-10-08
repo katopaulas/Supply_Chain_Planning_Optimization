@@ -16,7 +16,7 @@ import prepro_d
 import plotter
 import ml
 import geo_helper
-
+from os import listdir #TODO delete
 class engine():
     '''
         Engine object that handles all computations.
@@ -30,6 +30,9 @@ class engine():
     def __init__(self,mainpath):
         super().__init__()
         self.mainpath = mainpath
+        print(self.mainpath)
+        print(listdir(self.mainpath))
+        print('^'*12)
         self.DATA_PATH = os.path.join(mainpath,'data')
         self.PLOT_PATH = os.path.join(mainpath,'plots')
         self.plotter = plotter.picasso(self.PLOT_PATH)

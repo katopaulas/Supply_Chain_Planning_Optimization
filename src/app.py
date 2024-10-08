@@ -7,6 +7,7 @@ import dash_bootstrap_components as dbc
 import engine
 import os
 
+print(os.getcwd())
 main_path = os.path.dirname(os.getcwd())
 engine = engine.engine(main_path)
 
@@ -258,4 +259,7 @@ def app_skeleton():
 # Running the Dash app.
 if __name__ == '__main__':
     app = app_skeleton()
-    app.run_server(debug=True)
+    app.run_server(
+        port=8050,
+        host='0.0.0.0',
+        debug=True)

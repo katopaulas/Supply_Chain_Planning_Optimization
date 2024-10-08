@@ -1,0 +1,14 @@
+services:
+  web:
+    build:
+      context: ./
+      dockerfile: docker/dockerfile
+    # ports:
+    #   - "8050:8050"
+    #environment:
+    #  - APP_TITLE=Stable Diffusion Streamlit
+      #- DASH_DEBUG=False
+    #command: ["python", "app.py"]
+    #volumes:
+      #- /etc/localtime:/etc/localtime
+      #- ./volume:/app/pages/model/result
